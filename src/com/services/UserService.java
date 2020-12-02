@@ -36,7 +36,7 @@ public class UserService {
 		idCounter = new AtomicInteger();
 		User user1 = new User();
 		user1.setUserName("DON");
-		user1.setUserPass("MySekretPass$#");
+		user1.setUserPass("test$#UserD");
 		user1.setUserMail("narang@malaysia.net");
 
 		int idCount = idCounter.incrementAndGet();
